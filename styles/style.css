@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'Licorice';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/licorice/v1/t5tjIR8TMomTCAyjNn2wjKM.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+@font-face {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/worksans/v8/QGYsz_wNahGAdqQ43Rh_fKDp.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+      U+FEFF, U+FFFD;
+  }
+  
+@font-face {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rj.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+      U+FEFF, U+FFFD;
+  }
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h2,h3,p{
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+}
+.nav-link{
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 4px;
+    color: black !important;
+    letter-spacing: 2px;
+}
+.nav-link:hover{
+    color: #048A81 !important;
+    font-weight: bold;
+    border-bottom: 5px solid #048A81;
+}
+.last{
+    margin-right: 150px;
+}
+.logo{
+    width: 15%;
+    margin-left: 80px;
+}
+.profile{
+    width: 50%;
+}
+.intro{
+    background-color:#048A81;
+    color: white !important;
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+}
+.hello{
+    margin-left: 100px;
+    font-size: 70px;
+}
+.intro1{
+    margin-left: 200px;
+    color: black !important;
+}
+.intro2{
+    margin-left: 130px;
+    color: black !important;
+}
+.intro3{
+    margin-left: 250px;
+    color: black !important;
+}
+.name{
+    font-size: 50px;
+    color:#F96C62 !important;
+}
+.enthusiastic{
+    color:white !important;
+}
+.role-text{
+    color: #ffffff!important;
+}
+.sm-about-me{
+    background-color: #F96C62;
+}
+.about-margin{
+    margin: 150px;
+}
+.sm-margin{
+    margin:50px;
+}
+.sm-about{
+    width: 100%;
+}
+.blue-underline{
+    color: #C4FDF9;
+}
+.cursive-intro{
+    font-family: 'Licorice', cursive;
+    font-size: 80px;
+}
+.btn{
+    color: black !important;
+    background-color: #F8CF3A;
+    border: 1px solid #F8CF3A;
+}
+.btn:hover{
+    background-color: #ECBB09;
+    border: 2px solid #ECBB09; 
+}
+.button:active{
+    background-color: #ECBB09;
+    border: 2px solid #ECBB09; 
+}
+.app-photo{
+    width: 50.70%;
+}
+.skill-container{
+    background-color: #048A81;
+    padding-top: 20px;
+}
+.skill-container h2{
+    color: white;
+    padding: 10px 0px;
+}
+.skill-header{
+    font-size: 50px;
+    margin: 0px 0px 50px 120px;
+}
+.card-container{
+    padding: 30px 0px;
+}
+.skill{
+    width: 15rem;
+}
+.proficiency{
+    margin: 20px 0px;
+}
+.progress{
+    margin: 20px 0px;
+}
+.progress-bar{
+    background-color:#F96C62;
+}
+.contact{
+    background-color: #fafafa;
+    color: black !important;
+}
+.contact h2{
+    color: #F96C62;
+    padding: 10px 0px;
+    font-size: 50px;
+    margin: 0px 0px 50px 120px;
+}
+.contact-icon{
+    max-width: 5%;
+}
+.works-header{
+    background-color:#048A81;
+    padding: 80px;
+    color: white;
+    font-family: 'Licorice', cursive;
+}
+.works-header h1{
+    font-size: 90px;
+}
+.work-cat{
+    background-color: #fafafa;
+    color: #F96C62;
+    padding: 30px;
+}
+.work-cat h2{
+    font-size: 60px;
+}
+.tool{
+    margin: 20px 0px;
+}
+.project-img{
+    max-height: 300px;
+}
+.scroll-img{
+    margin-bottom: 15px;
+}
+.web-img{
+    max-width: 80%;
+}
+footer{
+    padding: 20px;
+}
+
+
+
